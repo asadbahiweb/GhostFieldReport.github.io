@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ghost Field Report</title>
+	<link rel="stylesheet" href="Ghost.css"></link>
+	<script src="Ghost.js"></script>
+</head>
+<body>
+<div class="nav">
+<div id="navbar">
+    <div class="navbar-brand">Ghost Field</div>
+    <div class="navbar-links">
+        <a href="#Overview">Overview</a>
+        <a href="#Volumetric">Volumetric</a>
+        <a href="#MB">Material Balance</a>
+        <a href="#DCA">DCA</a>
+        <a href="#conclusion">Conclusion</a>
+ 		<a href="#navbar"><button id="myButton"> Start Animation </button></a>
+
+        <div class="dropdown">
+            <a href="#navbar" class="dropdown-btn">Colors <i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-menu">
+                <a href="#red">Red</a>
+                <a href="#green">Green</a>
+                <a href="#blue">Blue</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--  			
+				
+				<div id="nav">
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#"><button id="myButton">Start Animation</button>
+</a>
+</div>
+</div>
+ -->
+
+
+
+	 <div class="title">
+		<h1>Ghost Field Report 👻 </h1>
+	</div>
+		<!-- Overview Start-->
+		
+		<div class="Overview-main   box" id="Overview">
+			<div class="Overview">
+				<div class="Overview-txt">
+					<h1>Overview</h1>
+					<p>The <span>GH-01 well in the GHOST field is a dry gas well located in Badin Sindh, Pakistan.</span> The well is situated in sandstone geological formations at a depth of 8540 ft, with an initial reservoir pressure of 4600 psig and a temperature of 170 °F.To estimate the reserves and predict production for the GH-01 well, <span>three different methods were applied volumetric reserve estimation, material balance, and declined curve analysis</span>. Each of these methods has its own advantages and limitations, and by combining the results from multiple methods, we can improve the reliability and precision of our estimates.To apply volumetric reserve estimation to the GH-01 well, we collected geological data on the porosity and thickness of the reservoir rock, as well as data on the gas content of the rock. We used this data to calculate the gas reserves in the well using a volumetric equation. Based on this method, we estimate that the GH-01 well has a total of <span>1231 Bscf of gas in place</span>.To apply material balance to the GH-01 well, we collected data on the composition of the gas, the reservoir pressure and temperature, and the well characteristics, including the diameter and length of the wellbore, the number and size of perforations, and the skin factor. We used this data to calculate the gas in place and recoverable reserves for the well using a material balance equation. Our analysis indicated that the GH-01 well has a total <span>1249 bscf  gas in place.</span>To apply declined curve analysis to the GH-01 well, we collected production data for the well over a period of time and used this data to fit a decline curve model. The model takes into account the decline in production due to the depletion of the reservoir, as well as any changes in well performance or operating conditions. Based on this model, we estimate that the GH-01 well has the <span>potential to produce a total of 1180 Bscf of gas reserves</span>.Overall, our analysis suggests that the GH-01 well has a significant potential for gas production, with <span>estimated reserves ranging from 1180 Bscf to 1246 Bscf, depending on the method used.</span> However, it is important to note that these estimates are subject to various assumptions and limitations, including the quality of the data and the accuracy of the models applied. For example,<span>the declined curve analysis assumes that the decline in production follows a predictable pattern, the material balance requires detailed and accurate data on the reservoir and well characteristics, and the volumetric reserve estimation assumes that the reservoir rock has a uniform porosity and gas content.</span></p>
+				</div>
+			</div>							
+		</div>
+		<!-- Overview End-->	
+		<!-- Introduction of Reservoir-->
+		<div class="Reservoir-main   box">
+			<div class="Reservoir">
+				<h1>Introduction of Reservoir</h1>
+			
+				<p>The Ghost gas field is located in Badin district of Sindh province, Pakistan and was discovered in 1999. This field is an example of a high-pressure, subsurface rock formation that contains natural gas, located in a sandstone geologic formation at a depth of 8,540 ft. The Ghost gas field's production began in 2001, utilizing modern drilling techniques to extract the natural gas from the reservoir. The field is notable for being a significant source of energy, used for heating and power generation, as well as for transportation.</p>
+			
+				<p>Due to high pressure, special care has to be taken while drilling, completing and operating the wells in the field. Also, advanced production techniques may be required to handle the high pressure and bring the gas to the surface. The reservoir contains a large volume of natural gas that is extracted through the wells drilled into the formation.</p>
+			
+				<p>The Ghost gas field has been a major contributor to the energy sector of Pakistan since its production started. The field's exploration and development history is a testament to the advances in technology and the expertise of the operators. The Ghost gas field is owned and operated by a <span>National Oil and Gas company of Pakistan</span>. With the continued efforts of the operator, the field is expected to continue production and provide a steady supply of natural gas for many years to come.</p>
+			</div>
+						
+						
+		</div>
+		<!-- Introduction of well -->
+		<div class="well-main    box">
+			<div class="well">
+				<h1>Introduction of Well</h1>
+				<p>The GH 1 well is a strategically important well, situated in the Ghost gas field of Sindh, Pakistan. It was drilled to a depth of 8540 ft, targeting a high-pressure, natural gas-bearing sandstone formation. The well is equipped with state-of-the-art technologies and techniques to ensure maximum production efficiency. The wellhead pressure of 150 PSIG and separator pressure of 90 PSIG, shows that the well is designed to handle high pressure and flow rate. The well began production with an initial flow rate of 123 MMSCF/D, providing a significant contribution to the overall production and supply of natural gas for the region. The well is owned and operated by a national oil and gas company of Pakistan, which is known for its expertise in the exploration and production of oil and gas resources. The GH 1 well has been in production since its completion and is expected to continue to provide a steady supply of natural gas for many years to come. This well represents an essential step in the development of the Ghost gas field, as it helps to confirm the size and production potential of the reservoir, and pave the way for further exploration and production activities.</p>
+			</div>
+			
+								
+		</div>
+
+<!-- Properties -->
+<div class="Properties-main   box">
+				<div class="Properties">
+				<h1>Properties Of Reservoir and Well</h1>
+				<div class="table-data">
+				<table border="1" > 
+								<tr>
+										<th>Parameter</th> 
+										<th>Symbol</th> 
+										<th>Value</th>
+										<th>Units</th>
+								</tr>
+								<tr>
+									 <td>Depth</td>
+										<td>D</td> 
+										<td>8540</td> 
+										<td>ft</td> 
+										</tr>
+								<tr> 
+										<td>Geological formation</td>
+										<td>F</td> 
+										<td>Sandstone</td> 
+										<td>-</td> 
+								</tr> 
+								<tr> 
+										<td>Area</td>
+										<td>A</td>
+										<td>1876</td> 
+										<td>Acre</td> 
+								</tr> 
+								<tr> 
+										<td>Pay zone thickness</td>
+										<td>h</td> 
+										<td>250</td> 
+										<td>ft</td> 
+								</tr> 
+								<tr> 
+										<td>Initial pressure</td> 
+										<td>P<sub>i</sub></td> 
+										<td>4600</td> 
+										<td>psig</td> 
+							 </tr> 
+							 <tr> 
+							 			<td>Temperature</td> 
+							 			<td>T</td> 
+							 			<td>170</td>
+							 			<td>°F</td> 
+							 </tr>
+							 <tr>
+							 			<td>Wellhead pressure</td> 
+							 			<td>P<sub>wh</sub></td> 
+							 			<td>150</td> 
+							 			<td>psi</td> 
+							 	</tr>
+							 	<tr> 
+							 			<td>Separator pressure</td> 
+							 			<td>P<sub>sep</sub></td> 
+							 			<td>90</td> 
+							 			<td>psig</td>
+							 	</tr>
+							 	<tr> 
+							 			<td>Initial flow rate</td> 
+							 			<td>Q<sub>i</sub></td>
+							 			<td> 123 </td> 
+							 			<td>MMScf/m</td> 
+							 	</tr> 
+							 	<tr>
+							 			<td>Fluid type</td> 
+							 			<td>Fl</td> 
+							 			<td> Dry Gas </td> 
+							 			<td>-</td> 
+							 	</tr> 
+							 	<tr> 
+							 			<td>Porosity</td> 
+							 			<td>n or φ</td> 
+							 			<td> 29% </td> 
+							 			<td>%</td> 
+							 	</tr> 
+							 	<tr> 
+							 			<td>Start of production date</td> 
+							 			<td>SOP</td> 
+							 			<td> 1-jan-2001 </td>
+							 			<td>-</td>
+							 			</tr> 
+			</table>
+			</div>
+</div>
+
+				
+</div>
+<!-- Composition of gas-->
+<div class="composition-main   box">
+<div class="composition">
+				<h1>Composition of Gas</h1>
+				<div class="table-data">
+				<table border="1" cellspacing="0" width="100%" align="center"> 
+								<thead> 
+												<tr> 
+																<th>Component</th> 
+																<th>Yi</th> 
+																<th>Mi</th> 
+																<th>Tcir (°R)</th> 
+																<th>Psi</th> 
+																<th>yi*Mi</th> 
+																<th>Yi*Tci</th> 
+																<th>yi*psi</th> 
+													</tr> 
+									</thead> 
+									<tbody> 
+													<tr> 
+																	<td>C1H4</td> 
+																	<td>0.9</td> 
+																	<td>16.04</td> 
+																	<td>343</td> 
+																	<td>668</td> 
+																	<td>14.436</td> 
+																	<td>308.7</td> 
+																	<td>601.2</td> 
+														</tr> 
+														<tr> 
+																		<td>C2H6</td> 
+																		<td>0.025</td> 
+																		<td>30.07</td> 
+																		<td>550</td> 
+																		<td>708</td> 
+																		<td>0.75175</td> 
+																		<td>13.75</td> 
+																		<td>17.7</td> 
+														</tr> 
+														<tr> 
+																		<td>C3H8</td> 
+																		<td>0.02</td> 
+																		<td>44.1</td> 
+																		<td>666</td> 
+																		<td>616</td> 
+																		<td>0.882</td> 
+																		<td>13.32</td> 
+																		<td>12.32</td>
+														</tr> 
+														<tr> 
+																		<td>i-C4H10</td> 
+																		<td>0.01</td> 
+																		<td>58.12</td> 
+																		<td>735</td> 
+																		<td>529</td> 
+																		<td>0.5812</td> 
+																		<td>7.35</td> 
+																		<td>5.29</td>
+														</tr>
+														<tr> 
+																		<td>n-C4H10</td> 
+																		<td>0.01</td> 
+																		<td>58.12</td> 
+																		<td>765</td> 
+																		<td>551</td> 
+																		<td>0.5812</td> 
+																		<td>7.65</td> 
+																		<td>5.51</td>
+														</tr>
+														<tr> 
+																		<td>Co2</td> 
+																		<td>0.01</td> 
+																		<td>44.01</td> 
+																		<td>548</td> 
+																		<td>1071</td> 
+																		<td>0.4401</td> 
+																		<td>5.48</td> 
+																		<td>10.71</td>
+														</tr>
+														<tr> 
+																		<td>H2S</td> 
+																		<td>0.015</td> 
+																		<td>34.08</td> 
+																		<td>672</td> 
+																		<td>1306</td> 
+																		<td>0.5112</td>
+																		<td>10.08</td> 
+																		<td>19.59</td>
+														</tr>
+														<tr> 
+																		<td>N2</td> 
+																		<td>0.01</td> 
+																		<td>28.01</td> 
+																		<td>227</td> 
+																		<td>493</td> 
+																		<td>0.2801</td> 
+																		<td>2.27</td> 
+																		<td>4.93</td>
+															</tr>
+							</tbody>
+				</table>
+				</div>
+</div>
+</div>
+<!-- Properties of Gas-->
+<div class="proper_gas-main   box">
+<div class="proper_gas">
+				<h1>Properties of Gas</h1>
+				<div class="table-data">
+				<table border="5">
+								 <tr> 
+								 				<th>Properties</th> 
+								 				<th>Symbol</th> 
+								 				<th>Value</th> 
+								 				<th>Units</th>
+								 </tr>
+								 <tr> 
+								 				<td>Molecular Apparent wt</td> 
+								 				<td>M<sub>a</sub></td> 
+								 				<td>18.46</td> 
+								 				<td></td> 
+								 </tr> 
+								 <tr> 
+								 				<td>Specific gravity</td> 
+								 				<td>γ</td> 
+								 				<td>0.64</td> 
+								 				<td>-</td> 
+								 	</tr> 
+								 	<tr> 
+								 					<td>Z Factor</td> 
+								 					<td>Z</td> 
+								 					<td>0.956</td> 
+								 					<td>-</td> 
+								 	</tr> 
+								 	<tr> 
+								 					<td>Api Gravity</td> 
+								 					<td>Api Gravity</td> 
+								 					<td>90.48</td> 
+								 					<td>API</td>
+								 	</tr> 
+								 	<tr> 
+								 					<td>Water saturation</td> 
+								 					<td>S<sub>w</sub></td> 
+								 					<td>26%</td> 
+								 					<td>%</td> 
+								 	</tr> 
+								 	<tr> 
+								 					<td>Hydrocarbon Saturation</td> 
+								 					<td>S<sub>HC</sub></td> 
+								 					<td>74%</td> 
+								 					<td>%</td> 
+								 		</tr> 
+								 		<tr> 
+								 					<td>Viscosity</td> 
+								 					<td>µ<sub>g</sub></td> 
+								 					<td>0.02471</td> 
+								 					<td>cp</td> 
+								 		</tr> 
+								 		<tr> 
+								 						<td>Density (ideal)</td> 
+								 						<td>ρ<sub>ideal</sub></td> 
+								 						<td>12.56</td> 
+								 						<td>lb/ft<sup>3</sup></td> 
+								 		</tr> 
+								 		<tr> 
+								 						<td>Density (real)</td> 
+								 						<td>ρ<sub>real</sub></td> 
+								 						<td>13.14</td> 
+								 						<td>lb/ft<sup>3</sup></td> 
+								 		</tr> 
+								 		<tr> 
+								 						<td>Formation Volume Factor</td> 
+								 						<td>Bgi</td> 
+								 						<td>0.003701403</td> 
+								 						<td></td>
+								 		 </tr>
+				 </table>
+				 </div>
+</div>
+</div>
+		<!-- Overview Start-->
+		
+		<div class="Overview-main   box" id="Overview">
+			<div class="Overview">
+				<div class="Overview-txt">
+					<h1>Contour Map of Reservoir</h1>
+					<p>The contour map of reservoir contains five contour lines with an interval of 50 ft. The scale 
+						for contour map of below graph is 1 small box represents 0.571 acre area or 0.1 sq. In is equal 
+						to 0.571 acre for simplicity 1 sq. in is equal to 5.71 acre. The area of reservoir calculate using 
+						contour map according to scale is 341.5 sq. in which is equal to 1950 acre.
+						</p> <br>
+						<p>Scale: <br> 
+							1 small box = 0.1 sq.in <br>
+							0.1 sq.in = 0.571 acres</p>
+						<img src="Images/contour map.png" alt="" srcset="" style="height: 900px;">
+				</div>
+			</div>							
+		</div>
+		<!-- Overview End-->	
+
+<!-- Volumetric Reserve Estimation -->
+<div class="Volumetric-main   box" id="Volumetric">
+	<div class="Volumetric">
+		<h1> Volumetric Reserve Estimation </h1>
+		<p>Volumetric reserve estimation involves using geological data on the porosity and thickness of the reservoir rock, as well as data on the gas content of the rock, to estimate the gas reserves in the well. This method is based on the assumption that the reservoir rock has a uniform porosity and gas content, which may not always be the case in practice. However, it has the advantage of being relatively simple and easy to apply, and can be used to estimate reserves for both volatile and non-volatile reservoirs.</p>
+
+		<div class="formula">
+		<math class="myFormula">
+			<mfrac>
+			<mrow>
+				<mi>IGIP</mi>
+				<mo>=</mo>
+				<mrow>
+				<mfrac>
+					<mrow>
+					<mn>43560</mn>
+					<mo>&times;</mo>
+					<mi>A</mi>
+					<mo>&times;</mo>
+					<mi>h</mi>
+					<mo>&times;</mo>
+					<mi>Φ</mi>
+					<mo>&times;</mo>
+					<mrow>
+						<mo>(</mo>
+						<mn>1</mn>
+						<mo>-</mo>
+						<mi>Sw</mi>
+						<mo>)</mo>
+					</mrow>
+					</mrow>
+					<mi>/ Bgi</mi>
+				</mfrac>
+				</mrow>
+			</mrow>
+			</mfrac>
+		</math>
+		</div>
+
+<h2>Results</h2>
+<p> Based on this method, we estimate that the GH1 well has the potential to produce a total of 1231 Bscf of gas.</p>
+
+<h2>Using Shape Factor</h2>
+				<div class="table-data">
+				<table border="5">
+								 <tr> 
+								 				<th>Productive Area </th> 
+								 				<th>Planimeter Area sq in</th> 
+								 				<th>Area </br>Acres </th> 
+								 				<th>Ratio of Areas</th>
+								 				<th>Interval </br>h. feet</th>
+								 				<th>Equation</th>
+								 				<th>ΔV </br>ac-ft </th>
+								 </tr>
+								 <tr> 
+								 				<td>A<sub>0</sub></td> 
+								 				<td>341.5</td> 
+								 				<td>1950</td> 
+								 				<td>-</td> 
+								 				<td>-</td> 
+								 				<td>-</td> 
+								 				<td>-</td> 
+								 </tr> 
+								 <tr> 
+								 				<td>A<sub>1</sub></td> 
+								 				<td>265.2</td> 
+								 				<td>1514</td> 
+								 				<td>0.78</td> 
+								 				<td>50</td> 
+								 				<td>Trapezoid</td> 
+								 				<td>86600</td> 
+								 </tr> 
+								 <tr> 
+								 				<td>A<sub>2</sub></td> 
+								 				<td>145.05</td> 
+								 				<td>828</td> 
+								 				<td>0.55</td> 
+								 				<td>50</td> 
+								 				<td>Trapezoid</td> 
+								 				<td>58550</td> 
+								 </tr> 
+								 <tr> 
+								 				<td>A<sub>3</sub></td> 
+								 				<td>86.55</td> 
+								 				<td>494</td> 
+								 				<td>0.60</td> 
+								 				<td>50</td> 
+								 				<td>Trapezoid</td> 
+								 				<td>33050</td> 
+								 </tr> 
+								 <tr> 
+								 				<td>A<sub>4</sub></td> 
+								 				<td>43.55</td> 
+								 				<td>249</td> 
+								 				<td>0.50</td> 
+								 				<td>50</td> 
+								 				<td>Trapezoid</td> 
+								 				<td>18575</td> 
+								 </tr> 
+								 <tr> 
+								 				<td>A<sub>5</sub></td> 
+								 				<td>0</td> 
+								 				<td>0</td> 
+								 				<td>0</td> 
+								 				<td>50</td> 
+								 				<td>Pyramid</td> 
+								 				<td>4150</td> 
+								 </tr> 
+								 <tr> 
+								 				<td colspan="6">Total Volume</td> 
+								 				<td>200925</td> 
+								 </tr> 
+				 </table>
+				 </div>
+		<div class="formula">
+		<math class="myFormula">
+			<mfrac>
+			<mrow>
+				<mi>IGIP</mi>
+				<mo>=</mo>
+				<mrow>
+				<mfrac>
+					<mrow>
+					<mn>43560</mn>
+					<mo>&times;</mo>
+					<mi>ΔV</mi>
+					<mo>&times;</mo>
+					<mi>Φ</mi>
+					<mo>&times;</mo>
+					<mrow>
+						<mo>(</mo>
+						<mn>1</mn>
+						<mo>-</mo>
+						<mi>Sw</mi>
+						<mo>)</mo>
+					</mrow>
+					</mrow>
+					<mi>/ Bgi</mi>
+				</mfrac>
+				</mrow>
+			</mrow>
+			</mfrac>
+		</math>
+		</div>
+		</br>
+		<div class="formula">
+		<math class="myFormula">
+			<mfrac>
+			<mrow>
+				<mi>IGIP</mi>
+				<mo>=</mo>
+				<mrow>
+				<mfrac>
+					<mrow>
+					<mn>43560</mn>
+					<mo>&times;</mo>
+					<mi>200925</mi>
+					<mo>&times;</mo>
+					<mi>0.29</mi>
+					<mo>&times;</mo>
+					<mrow>
+						<mo>(</mo>
+						<mn>1</mn>
+						<mo>-</mo>
+						<mi>0.26</mi>
+						<mo>)</mo>
+					</mrow>
+					</mrow>
+					<mi>/ 0.003701403</mi>
+				</mfrac>
+				</mrow>
+			</mrow>
+			</mfrac>
+		</math>
+		</div>
+
+<h2>Results</h2>
+<p> Based on this method, we estimate that the GH1 well has the potential to produce a total of 507.441 Bscf of gas.</p>
+
+
+</div>
+</div>
+
+
+<!-- Material Balance -->
+<div class="mb-main   box" id="MB">
+<div class="mb" id="mb">
+				<h1>Material Balance</h1>
+				<p>Material balance analysis is a technique used to estimate the recoverable reserves of a well by analyzing data on the composition of the gas, reservoir pressure and temperature, and well characteristics. It is based on the principles of mass and energy conservation, and uses PVT data, reservoir data, fluid properties, and well production data to estimate the original oil and gas in place, and the amounts that will be produced over time. It can be useful for estimating reserves for both volatile and non-volatile reservoirs, but requires detailed and accurate data on the reservoir and well characteristics.
+</p>
+<h2>Production History Data</h2>
+<p>The data presented in the table shows the measurement of various parameters over a period of time. It includes the date, pressure (P) measured in pounds per square inch gauge (psig), gas production (Gp) measured in billion standard cubic feet (BSCF), and water production (Wp) measured in million standard cubic feet (MMSTB). The data appears to be taken at regular intervals, with measurements recorded every four months from January 2001 to September 2004. The table can be used to analyze trends in pressure, gas production, and water production over the specified period.</p>
+<div class="table-data">
+<table border="1" cellspacing="0" width="100%">
+  <tr>
+    <th>Date</th>
+    <th>P (psig)</th>
+    <th>Gp (BSCF)</th>
+    <th>Wp (MMSTB)</th>
+  </tr>
+  <tr>
+    <td>01/01/2001</td>
+    <td>4600</td>
+    <td>0</td>
+    <td>0.000</td>
+  </tr>
+  <tr>
+    <td>01/05/2001</td>
+    <td>4520</td>
+    <td>14.86245734</td>
+    <td>0.390</td>
+  </tr>
+  <tr>
+    <td>01/09/2001</td>
+    <td>4437</td>
+    <td>29.53781456</td>
+    <td>1.270</td>
+  </tr>
+  <tr>
+    <td>01/01/2002</td>
+    <td>4352</td>
+    <td>44.02842703</td>
+    <td>1.752</td>
+  </tr>
+  <tr>
+    <td>01/05/2002</td>
+    <td>4271</td>
+    <td>58.33662046</td>
+    <td>2.514</td>
+  </tr>
+  <tr>
+    <td>01/09/2002</td>
+    <td>4195</td>
+    <td>72.46469127</td>
+    <td>3.324</td>
+  </tr>
+  <tr>
+    <td>01/01/2003</td>
+    <td>4118</td>
+    <td>86.41490701</td>
+    <td>3.584</td>
+  </tr>
+  <tr>
+    <td>01/05/2003</td>
+    <td>4045</td>
+    <td>100.1895066</td>
+    <td>4.033</td>
+  </tr>
+  <tr>
+    <td>01/09/2003</td>
+    <td>3977</td>
+    <td>113.7907009</td>
+    <td>4.523</td>
+  </tr>
+  <tr>
+    <td>01/01/2004</td>
+    <td>3911</td>
+    <td>127.2206729</td>
+    <td>5.304</td>
+  </tr>
+  <tr>
+    <td>01/05/2004</td>
+    <td>3843</td>
+    <td>140.4815779</td>
+    <td>5.549</td>
+  </tr>
+  <tr>
+    <td>01/09/2004</td>
+    <td>3778</td>
+    <td>153.5755445</td>
+    <td>5.785</td>
+  </tr>
+</table>
+</div>
+<!-- water influx -->
+<h2>Water Influx Data</h2>
+<p>This table shows the various parameters used in a reservoir simulation. The parameters include the Reservoir Radius, measured in feet (ft), the thickness of the reservoir, also measured in feet (ft), the ratio of outer to inner radius, Encroachment Angle measured in degree and Aquifer Permeability measured in milli darcy (md).</p>
+<div class="table-data">
+<table class="influx">
+  <tr>
+    <th>Parameter</th>
+    <th>Symbol</th>
+    <th>Value</th>
+    <th>Unit</th>
+  </tr>
+  <tr>
+    <td>Reservoir Radius</td>
+    <td>r</td>
+    <td>5100</td>
+    <td>ft</td>
+  </tr>
+  <tr>
+    <td>Thickness</td>
+    <td>h</td>
+    <td>250</td>
+    <td>ft</td>
+  </tr>
+  <tr>
+    <td>Outer/Inner Radius</td>
+    <td>-</td>
+    <td>2.31819</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Encroachment Angle</td>
+    <td> θ</td>
+    <td>66.6565 </td>
+    <td>degree</td>
+  </tr>
+  <tr>
+    <td>Aquifer Permeability</td>
+    <td>k</td>
+    <td>32.8916</td>
+    <td>md</td>
+  </tr>
+</table>
+</div>
+
+<!-- Relative Permeability -->
+<h2>Relative Permeability</h2>
+<p>This table shows the various parameters used in a reservoir simulation. The parameters include the Reservoir Radius, measured in feet (ft), the thickness of the reservoir, also measured in feet (ft), the ratio of outer to inner radius, Encroachment Angle measured in degree and Aquifer Permeability measured in milli darcy (md).</p>
+<div class="table-data">
+<table class="influx">
+  <tr>
+    <th>Parameter</th>
+    <th>Residual Saturation</th>
+    <th>End Point</th>
+    <th>Exponent</th>
+  </tr>
+  <tr>
+    <td>Krw</td>
+    <td>0.2</td>
+    <td>0.8</td>
+    <td>2.92</td>
+  </tr>
+  <tr>
+    <td>Krg</td>
+    <td>0.01</td>
+    <td>0.122112 </td>
+    <td>3.64</td>
+  </tr>
+  <tr>
+</table>
+</div>
+
+<h2>History Matching</h2>
+<p>In History Matching Plot four types of graph Graphical Method, Analytical Method, Wd Plot and Energy Plot to determine the reservoir performance according to our data and determine the drive mechanism of reservoir.</p>
+<div class="mb-images">
+	<h2>Analytical Method</h2>
+				<p>In this plot two lines are present one is red and other is blue red line shows production without water influx and blue line shows production with water influx. On X-axis is Calculated Gas production in Bscf and on Y axis pressure in Psig. Both lines red and blue is very close to each other’s this indicate that that the aquifer support is very weak to maintain its pressure in the reservoir during production also thus shows that the drive mechanism of this reservoir is other than water drive. </p>	
+				<img src="Images/Analytical Method.png" alt="">
+				<h2>Graphical Method</h2>
+				<p>In Graphical Method On X Axis Cumulative Gas Production Gp in Bscf and on Y axis (F-We)/Et in Bscf this plot gives the ratio of outer/ inner radius aquifer and reservoir. </p>
+				
+					
+				<img src="Images/Graphical Method.png" alt="">
+				<h2>Energy Plot</h2>
+				<p>In Energy Plot on X Axis Time or date in (m/d/y) and on Y axis is fraction 0 to 1 this plot gives helps to determine the drive mechanism of reservoir. The below graph shows that the 90% is fluid expansion 5% is pv compressibility and 5% is water influx. This indicate that the drive Mechanism of this reservoir is Fluid Expansion or Depletion Drive Mechanism</p>
+				<img src="Images/Energy Plot.png" alt="">
+				<h2>WD Plot</h2>
+				<p>In WD plot on X Axis td on logarithmic scale and on Y axis Q (td) on Cartesian scale.</p>
+				<img src="Images/WD Plot.png" alt="">
+
+</div>
+
+<h2>Production Simulation</h2>
+<div class="simulation">
+				<p>In production Simulation graph on x axis time or date (m/d/y) on primary y axis Cumulative
+gas production in Bscf and on secondary y axis tank pressure in psig. In simulation graph 
+four lines are present (blue, red, green and pink) blue line and red line shows cumulative gas 
+production of history data and simulation results with respect to the time and green and pink 
+line shows tank pressure of history data and simulation results with respect to the time also 
+history data is almost exactly match with production simulation results or data.</p>
+				<img src="Images/Simulation Graph.png" alt="">
+</div>
+<h2>Production Prediction Graph</h2>
+<div class="mb-prediction">
+				<p>In production prediction graph on x axis time or date (m/d/y) on primary y axis cumulative
+gas production in Bscf on secondary y axis tank pressure in psig. There are six lines in 
+Production prediction graph (blue, red, green, pink, sky blue and yellow) blue, red and green 
+line shows cumulative gas production in Bscf of History, Simulation and Prediction with 
+respect to the time and pink, sky blue and yellow lines shows Tank pressure in psig with 
+respect to time also our history and simulation data almost perfectly match with production 
+prediction.</p>
+				<img src="Images/MB Prediction.png" alt="">
+</div>
+<h2>Results</h2>
+<p> Based on this method, we estimate that the GH1 well has the potential to produce a total of 1249 Bscf of gas.</p>
+
+</div>
+
+</div>
+
+	
+<!-- Decline Curve Analysis-->
+<div class="dca-main   box" id="DCA">
+	<div class="dca">
+					<h1>Decline Curve Analysis (DCA) </h1>
+					<p>Declined curve analysis involves using production data from the well to model the decline in production over time and estimate the ultimate recovery of the well. This method is widely used in the oil and gas industry and has the advantage of being based on actual production data, which can be more reliable than estimates based on geology or reservoir characteristics. However, <span>it relies on the assumption that the decline in production follows a predictable pattern, which may not always be the case in practice.</span> By analyzing the decline rate and initial production rate, the decline curve analysis allows the estimation of future production rate. A decline curve model was fitted using production data collected for the well over a period of time. The model takes into account the decline in production due to the depletion of the reservoir, as well as any changes in well performance or operating conditions.</p>
+					<h2>Production History Data</h2>
+					<p>This table appears to show a dataset of natural gas production, measured in million standard cubic feet per day (mmscf/d), and the cumulative production (gp), in trillions of cubic feet (tcf), over a period of several years. The data is organized by date, with measurements taken every four months (on January 1st and May 1st) for four years, from 2001 to 2004.It shows that the gas production is going down over the year and the cumulative production is increasing with time.</p>	
+					<div class="table-data">
+					<table border="0" cellspacing="0" width="100%" align="center">
+	  <tr>
+		<th>Date</th>
+		<th>q (mmscf/d)</th>
+		<th>Gp (Bscf)</th>
+	  </tr>
+	  <tr>
+		<td>01/01/2001</td>
+		<td>123</td>
+		<td>0</td>
+	  </tr>
+	  <tr>
+		<td>01/05/2001</td>
+		<td>121</td>
+		<td>14.86</td>
+	  </tr>
+	  <tr>
+		<td>01/09/2001</td>
+		<td>120</td>
+		<td>29.54</td>
+	  </tr>
+	  <tr>
+		<td>01/01/2002</td>
+		<td>118</td>
+		<td>44.03</td>
+	  </tr>
+	  <tr>
+		<td>01/05/2002</td>
+		<td>117</td>
+		<td>58.34</td>
+	  </tr>
+	  <tr>
+		<td>01/09/2002</td>
+		<td>115</td>
+		<td>72.46</td>
+	  </tr>
+	  <tr>
+		<td>01/01/2003</td>
+		<td>114</td>
+		<td>86.41</td>
+	  </tr>
+	  <tr>
+		<td>01/05/2003</td>
+		<td>112</td>
+		<td>100.19</td>
+	  </tr>
+	  <tr>
+		<td>01/09/2003</td>
+		<td>111</td>
+		<td>113.79</td>
+	  </tr>
+	  <tr>
+		<td>01/01/2004</td>
+		<td>110</td>
+		<td>127.22</td>
+	  </tr>
+	  <tr>
+		<td>01/05/2004</td>
+		<td>108</td>
+		<td>140.48</td>
+	  </tr>
+	  <tr>
+		<td>01/09/2004</td>
+		<td>107</td>
+		<td>153.58</td>
+	  </tr>
+	</table>
+	</div>
+	<div class="dca-images">
+	<h2>Decline Curve Graph</h2>
+	<p>When we plot the graph flow rate vs time on x axis time or date (m/d/y) on Cartesian scale 
+and on y axis flow rate (q) in MMscf/d on logarithmic scale it will show an exponential decay 
+trend, this plot will appear as a straight line with a negative slope indicating an exponential 
+type of curve in the data.</p>
+					<img src="Images/DCA Curve.jpg" alt="">
+						<h2>Decline Rates</h2>
+	<table border="1" cellspacing="0" width="100%">
+	  <tr>
+		<th>Di</th>
+		<th>Unit</th>
+	  </tr>
+	  <tr>
+		<td>0.038006051</td>
+		<td>Year <sup>-1</sup></td>
+	  </tr>
+	  <tr>
+		<td>0.003167171</td>
+		<td>Month <sup>-1</sup></td>
+	  </tr>
+	  <tr>
+		<td>0.000104183</td>
+		<td>Day <sup>-1</sup></td>
+	  </tr>
+	</table>
+
+	<h2>Production Prediction Graph</h2>
+	<p>In DCA prediction graph on x axis time or date (m/d/y) on primary y axis cumulative gas 
+production in Bscf and on secondary y axis gas flow rate in MMscf/d. There are two lines in 
+DCA prediction one is blue shows cumulative gas production and other is red shows gas rate 
+with respect to time respectively.</p>
+					<img src="Images/DCA Prediction.jpg" alt="">
+	</div>
+	<h2>Results</h2>
+	<p> Based on this method, we estimate that the GH1 well has the potential to produce a total of 1180 Bscf of gas.</p>
+	</div>
+	</div>
+	
+			<!-- Conclusion-->
+		<div class="conclusion-main    box">
+			<div class="conclusion" id="conclusion">
+				<h1>Conclusion</h1>
+				<p>
+								Overall, our analysis suggests that the GH-01 well has a significant potential for gas 
+production, with estimated reserves ranging from 1180 to 1249 Bscf, depending on the 
+method used. However, it is important to note that these estimates are subject to various 
+assumptions and limitations, including the quality of the data and the accuracy of the models 
+applied. For example, the declined curve analysis assumes that the decline in production 
+follows a predictable pattern, the material balance requires detailed and accurate data on the 
+reservoir and well characteristics, and the volumetric reserve estimation assumes that the 
+reservoir rock has a uniform porosity and gas content.
+				</p>
+			</div>
+			
+								
+		</div>
+
+
+<script>
+  const button = document.getElementById("myButton");
+  const boxes = document.querySelectorAll(".box");
+  let isAnimating = false;
+  button.addEventListener("click", function() {
+    if (isAnimating) {
+      boxes.forEach(function(box){
+        box.classList.remove("animate");
+      });
+      button.innerHTML = "Start Animation";
+    } else {
+      boxes.forEach(function(box){
+        box.classList.add("animate");
+      });
+      button.innerHTML = "Stop Animation";
+    }
+    isAnimating = !isAnimating;
+  });
+  
+  // Get the dropdown menu element
+const dropdownMenu = document.querySelector(".dropdown-menu");
+
+// Add an event listener to the dropdown menu
+dropdownMenu.addEventListener("click", (event) => {
+    // Check if the clicked element is an <a> element
+    if (event.target.tagName === "A") {
+        // Get the text content of the clicked element
+        const color = event.target.textContent.toLowerCase();
+
+        // Update the value of the --style-color variable
+        document.documentElement.style.setProperty("--style-color", color);
+    }
+});
+
+</script>
+
+</body>
+</html>
+

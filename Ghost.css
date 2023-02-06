@@ -1,0 +1,349 @@
+*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+}
+body {
+  background-color: #1a1a1a;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+.nav{
+				position: relative;
+				width: 100% ;
+				height: 50px;
+				background-color: red;
+				margin-bottom: 30px;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: var(--style-color);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Position the logo on the left side of the navbar */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+    margin-left: auto; /* Position the links on the right side of the navbar */
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-links a:hover {
+    color: #f1f1f1;
+    text-shadow: 2px 2px #333;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-links a #myButton{
+		 background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#myButton:hover {
+    background-color: #f1f1f1;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    /* Change the font-size of the links and logo */
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+    .navbar-links a {
+        font-size: 14px;
+    }
+    /* Stack the links and logo on top of each other */
+    #navbar {
+        flex-direction: column;
+    }
+    /* Add a dropdown button for the links */
+    .navbar-links {
+        display: none; /* Hide the links by default */
+    }
+    /* Add the "responsive" class to the navbar */
+    #navbar.responsive {
+        flex-direction: column;
+    }
+}
+
+
+
+
+:root{
+				--style-color:#ff1177;
+				--text-color:#fff;
+}
+/* Add shadow effect to Overview div */
+
+.Overview,.Reservoir,.well,.Properties,.composition,.proper_gas,.dca ,.mb,.Volumetric,.conclusion{
+    box-shadow: 0px 0px 25px var(--style-color);
+    padding: 20px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+.animate{
+    animation: shadow 5s linear infinite;
+				
+}
+@keyframes shadow {
+	0%{
+					filter: hue-rotate(0deg);
+	}
+	100%{
+					filter: hue-rotate(360deg);
+	}			
+}
+.Overview-main,.Reservoir-main,.well-main,.Properties-main,.composition-main,.proper_gas-main,.dca-main ,.mb-main,.Volumetric-main,.conclusion-main{
+				padding: 20px;
+}
+
+
+/* Add background color and font styling to the page */
+p{
+  text-align: left;
+  font-size: 20px;
+}
+/* Add simple hover effect on text */
+p:hover span{
+  /* background-color: #ff1177; */
+  text-decoration: underline;
+  color: #ff1177;
+  transition: color 0.5s ease-in-out;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+/* Add simple hover effect on heading */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+  color: var(--style-color);
+  transition: color 0.5s ease-in-out;
+}
+
+/* Add bold line below the h1 heading */
+h1 {
+  position: relative;
+  color: var(--style-color);
+  font-size: 45px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness:8px ;
+}
+
+.title h1{
+				text-align: center;
+				font-size: 60px ;
+}
+
+/* Add bold line below the h2 heading */
+h2 {
+  position: relative;
+  color: var(--style-color);
+  font-size: 35px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness:8px ;
+}
+h3 {
+  position: relative;
+  color: var(--style-color);
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness:8px ;
+}
+
+/* Add animations on table borders */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: solid var(--style-color);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  animation: table-border 1s ease-in-out infinite alternate;
+  animation: neon-border 1s ease-in-out infinite alternate;
+}
+@keyframes neon-border {
+  0% {
+    border: 5px solid var(--style-color);
+  }
+  100% {
+    border: 5px solid #fff;
+  }
+}
+
+@keyframes table-border {
+  0% {
+    border: 5px solid #ff1177;
+  }
+  100% {
+    border: 5px solid #ff1177;
+  }
+}
+
+/* Add even and odd row style in table */
+table tr:nth-child(even) {
+  background-color: #333333;
+}
+
+table tr:nth-child(odd) {
+  background-color: #222222;
+}
+
+/* Add hover effect on table rows */
+table tr:hover {
+  background-color: var(--style-color);
+  color: #fff;
+}
+/* Add responsive image styles */
+.mb-images{
+padding: 15px;
+}
+
+img {
+  width: 100%;
+  margin-top: 25px;
+  border: 10px solid var(--style-color);
+  animation: neon-border 1s ease-in-out infinite alternate;
+}
+
+
+/* Add style for table headers */
+th {
+  background-color: var(--style-color);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add formatting for table data cells */
+td {
+  padding: 10px;
+  text-align: center;
+}
+.Properties table tr td:first-child{
+				text-align: left;				
+}
+.proper_gas table tr td:first-child{
+				text-align: left;				
+}
+.influx tr td:first-child{
+				text-align: left;				
+}
+
+
+
+.formula {
+  text-align: center; /* center align the formula */
+}
+
+.myFormula {
+  font-size: 1.2em; /* Increase the font size of the formula */
+}
+
+mi {
+  font-style: italic; /* Make variables italic */
+}
+
+mn {
+  font-weight: bold; /* Make constants bold */
+}
+
+mo {
+  padding: 0 0.2em; /* Add padding around operators */
+}
+
+.table-data {
+				
+				width: 100%;
+				position: relative;
+				overflow: auto;
+}
+@media only screen and (max-width: 600px) {
+				h1{
+								font-size: 30px;
+						   text-decoration-thickness:5px ;
+						   text-underline-offset: 8px;
+		
+				}
+				h2{
+								font-size: 25px;
+						   text-decoration-thickness:5px ;
+							  text-underline-offset: 8px;
+
+				}
+				p{
+								font-size: 18px;
+				}
+				table{
+								font-size: 18px;
+				}
+}
